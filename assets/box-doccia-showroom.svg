@@ -1,0 +1,15 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#F5F0E8"/>
+  <rect x="0" y="0" width="1600" height="240" fill="#E9DACD"/>
+  <rect x="160" y="250" width="510" height="600" rx="26" fill="#F8F8F6" stroke="#D1C1B4" stroke-width="6"/>
+  <rect x="220" y="310" width="390" height="480" rx="18" fill="#DAE5EA" stroke="#A9BAC4" stroke-width="6"/>
+  <rect x="250" y="340" width="330" height="420" rx="12" fill="#FFFFFF" opacity="0.65"/>
+  <circle cx="570" cy="550" r="10" fill="#8F4F28"/>
+  <rect x="840" y="250" width="600" height="600" rx="26" fill="#EFE7DB" stroke="#D1C1B4" stroke-width="6"/>
+  <rect x="930" y="320" width="420" height="460" rx="18" fill="#E0EAEE" stroke="#A9BAC4" stroke-width="6"/>
+  <rect x="960" y="350" width="360" height="400" rx="14" fill="#FFFFFF" opacity="0.62"/>
+  <rect x="1110" y="320" width="20" height="460" rx="10" fill="#8F4F28"/>
+  <rect x="0" y="900" width="1600" height="100" fill="#D8C8B8"/>
+  <text x="100" y="120" fill="#6F3D1E" font-family="Arial, sans-serif" font-size="56" font-weight="700">Box doccia showroom</text>
+  <text x="100" y="182" fill="#8F4F28" font-family="Arial, sans-serif" font-size="30">Una base visiva per valorizzare Samo e PDP con effetto più definitivo</text>
+</svg>
