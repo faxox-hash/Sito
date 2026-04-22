@@ -1,0 +1,19 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#F5F1EA"/>
+  <rect x="0" y="0" width="1600" height="240" fill="#E5D4C6"/>
+  <rect x="90" y="290" width="420" height="530" rx="26" fill="#FFFFFF" stroke="#D0C0B0" stroke-width="6"/>
+  <rect x="150" y="350" width="120" height="330" rx="18" fill="#8F4F28"/>
+  <circle cx="210" cy="734" r="22" fill="#6F3D1E"/>
+  <circle cx="390" cy="734" r="22" fill="#6F3D1E"/>
+  <rect x="330" y="350" width="120" height="330" rx="18" fill="#B57C57"/>
+  <rect x="580" y="300" width="930" height="520" rx="26" fill="#F9F7F2" stroke="#D0C0B0" stroke-width="6"/>
+  <path d="M660 410H1010V470H940V710H870V470H800V710H730V470H660V410Z" fill="#8F4F28"/>
+  <path d="M1060 390H1380V450H1320V700H1260V450H1180V700H1120V450H1060V390Z" fill="#D39D69"/>
+  <path d="M690 790C760 720 820 680 900 650C980 620 1090 590 1410 560" stroke="#6A8E9C" stroke-width="18" stroke-linecap="round"/>
+  <path d="M700 860C830 780 920 760 1080 740C1200 724 1295 690 1440 660" stroke="#89A8B5" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="960" cy="650" r="22" fill="#6A8E9C"/>
+  <circle cx="1180" cy="600" r="22" fill="#89A8B5"/>
+  <rect x="0" y="900" width="1600" height="100" fill="#D8C6B7"/>
+  <text x="95" y="120" fill="#6F3D1E" font-family="Arial, sans-serif" font-size="56" font-weight="700">Termoidraulica e impiantistica</text>
+  <text x="95" y="182" fill="#8F4F28" font-family="Arial, sans-serif" font-size="30">Attrezzature, componenti e sistemi per il lavoro tecnico quotidiano</text>
+</svg>
