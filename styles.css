@@ -58,6 +58,10 @@ img {
   padding: 1rem 0;
 }
 
+.footer-stack {
+  padding: 1rem 0;
+}
+
 .logo {
   text-decoration: none;
   color: var(--text);
@@ -72,10 +76,15 @@ img {
 .main-nav {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .main-nav a,
-.link-button {
+.link-button,
+.text-link,
+.social-inline a,
+.social-links a,
+.footer-social a {
   color: var(--text);
   text-decoration: none;
   font-weight: 500;
@@ -85,9 +94,21 @@ img {
   font: inherit;
 }
 
+.text-link,
+.social-inline a,
+.social-links a,
+.footer-social a {
+  color: var(--primary);
+}
+
 .hero,
-.section {
+.section,
+.page-hero {
   padding: 5rem 0;
+}
+
+.page-hero {
+  padding-bottom: 2rem;
 }
 
 .section-alt {
@@ -95,11 +116,12 @@ img {
 }
 
 .hero-grid,
-.contact-grid {
+.contact-grid,
+.two-column-layout {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: 2rem;
-  align-items: center;
+  align-items: start;
 }
 
 .eyebrow {
@@ -131,12 +153,18 @@ h2 {
 .card p,
 .step p,
 .contact-section p,
-.faq-list p {
+.faq-list p,
+.two-column-layout p,
+.feature-list,
+.social-inline span,
+.footer-social span,
+.helper-text {
   color: var(--muted);
 }
 
 .hero-actions,
-.hero-points {
+.hero-points,
+.social-inline {
   margin-top: 1.5rem;
 }
 
@@ -146,20 +174,24 @@ h2 {
   flex-wrap: wrap;
 }
 
-.hero-points {
+.hero-points,
+.feature-list,
+.contact-list {
   padding-left: 1.1rem;
 }
 
 .hero-card,
 .card,
-.contact-card {
+.contact-card,
+.social-box {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
 
-.hero-card {
+.hero-card,
+.social-box {
   padding: 1.5rem;
 }
 
@@ -241,6 +273,15 @@ h2 {
   gap: 1rem;
 }
 
+.social-inline,
+.social-links,
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .btn {
   display: inline-flex;
   justify-content: center;
@@ -287,7 +328,8 @@ h2 {
   .hero-grid,
   .contact-grid,
   .three-cols,
-  .two-cols {
+  .two-cols,
+  .two-column-layout {
     grid-template-columns: 1fr;
   }
 
@@ -303,7 +345,8 @@ h2 {
 
 @media (max-width: 640px) {
   .hero,
-  .section {
+  .section,
+  .page-hero {
     padding: 3.5rem 0;
   }
 
