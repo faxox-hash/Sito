@@ -258,6 +258,25 @@ h2 {
   object-fit: cover;
 }
 
+.visual-photo.logo-panel {
+  min-height: 190px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #ffffff, #f7f4ef);
+}
+
+.visual-photo.logo-panel img {
+  width: calc(100% - 2rem);
+  max-width: 320px;
+  margin: 0;
+  height: 120px;
+  object-fit: contain;
+}
+
+.visual-photo.logo-panel strong {
+  bottom: 0.85rem;
+}
+
 .visual-photo strong {
   display: inline-block;
   background: rgba(255,255,255,0.94);
@@ -441,5 +460,9 @@ h2 {
 
   .visual-photo img {
     height: 220px;
+  }
+
+  .visual-photo.logo-panel img {
+    height: 90px;
   }
 }
